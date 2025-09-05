@@ -2,23 +2,47 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hi, I'm Your Name</title>
+    <title>Your Name — Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      body {
-        font-family: system-ui, sans-serif;
-        margin: 2rem auto;
-        max-width: 700px;
-        line-height: 1.6;
-      }
-      h1 {
-        color: #007acc;
-      }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <h1>Hello! 👋</h1>
-    <p>Welcome to my portfolio site hosted on <b>GitHub Pages</b>.</p>
-    <p>I’ll be adding my projects and CV here soon.</p>
+    <div class="container">
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+
+      <header class="card">
+        <h1 class="mt-0">Hello! 👋 I’m Your Name</h1>
+        <p class="lead">
+          I work on robotics, AI, and software. This portfolio highlights my projects and interests.
+        </p>
+        <a class="btn" href="projects.html">View my projects</a>
+      </header>
+
+      <section class="mt-3 grid cols-3">
+        <div class="card">
+          <h3 class="mt-0">Robotics</h3>
+          <p>Perception, planning, control, and ROS 2 integrations.</p>
+        </div>
+        <div class="card">
+          <h3 class="mt-0">AI / ML</h3>
+          <p>Learning from demonstration, DMPs, and vision models.</p>
+        </div>
+        <div class="card">
+          <h3 class="mt-0">Systems</h3>
+          <p>Simulation, tooling, and performance-minded C++/Python.</p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        © <span id="year"></span> Your Name • <a href="https://github.com/your-username">GitHub</a>
+      </footer>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

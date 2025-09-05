@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>About — Your Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+
+      <h1 class="mt-0">About Me</h1>
+      <p class="lead">Short intro about who you are and what you’re into.</p>
+
+      <div class="grid cols-2 mt-2">
+        <div class="card">
+          <h3 class="mt-0">What I do</h3>
+          <p>I build robotics and AI systems from research to deployment.</p>
+          <ul>
+            <li>ROS 2, C++, Python</li>
+            <li>Control & planning</li>
+            <li>Perception & SLAM</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="mt-0">Contact</h3>
+          <p>Email: you@example.com</p>
+          <p>GitHub: <a href="https://github.com/your-username">your-username</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/your-handle/">your-handle</a></p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        © <span id="year"></span> Your Name
+      </footer>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
