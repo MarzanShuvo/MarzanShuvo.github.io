@@ -2,9 +2,35 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>About — Your Name</title>
+    <title>About — Marzan Alam</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+      .experience {
+        margin-top: 2rem;
+      }
+      .job {
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        background: #f8fafc;
+      }
+      .job h2 {
+        margin-top: 0;
+      }
+      .job h3 {
+        margin-bottom: 0.25rem;
+      }
+      .job .date {
+        color: #555;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+      }
+      .job ul {
+        margin: 0.5rem 0 0 1rem;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -16,7 +42,53 @@
 
       <h1>About Me</h1>
       <p>Hello, I’m <b>Marzan Alam</b>. I’m passionate about robotics, AI, and software development.</p>
-      <p>This is where I’ll share my journey and ideas.</p>
+      <p>I’ve worked on research and engineering projects spanning autonomous robots, AI planning,
+         embedded systems, and training students in robotics and ROS.</p>
+
+      <section class="experience">
+        <h2>Experience</h2>
+
+        <div class="job">
+          <h3>Research Assistant</h3>
+          <p class="date">Cognitive Assistive Robotics Lab, University of New Hampshire<br>August 2023 – Present</p>
+          <ul>
+            <li>Working on an <b>AI Planner-based autonomous caregiving system</b> for people with dementia.</li>
+            <li>Designed a <b>vision-based docking system</b> for the Stretch robot, deployed in households.</li>
+            <li>Developed a <b>PDDL-based AI planner</b> integrated with Behavior Trees, using C++ for robot protocols and an Android app for interaction.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <h3>Application Engineer</h3>
+          <p class="date">Embedded and Robotics Wing, Unipolar Automations and Technologies<br>December 2021 – August 2023</p>
+          <ul>
+            <li>Full responsibility for developing <b>omni wheel-based autonomous mobile robots</b> for warehouses and operational work.</li>
+            <li>Designed solutions for industrial problems using <b>image processing and AI</b>.</li>
+            <li>Built embedded devices for customized industrial solutions (Industrial IoT, PLCs) using ARM processors.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <h3>Robotics Engineer (Navigation Stack)</h3>
+          <p class="date">Robotics and Mechatronics Engineering, University of Dhaka<br>March 2022 – August 2022</p>
+          <ul>
+            <li>Developed an <b>intelligent hospital assistance robot</b> (IHABOT) funded by a Centennial Research Grant.</li>
+            <li>Implemented a <b>navigation stack</b> to ensure safe room-to-room hospital navigation with obstacle avoidance.</li>
+            <li>Led and mentored a group of undergraduate students working on the project.</li>
+            <li>Provided technical support and solved critical problems during development.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <h3>ROS Trainer</h3>
+          <p class="date">Robotics and Mechatronics Engineering, University of Dhaka<br>January 2022 – March 2022</p>
+          <ul>
+            <li>Taught fundamental ROS concepts (nodes, topics, services, actions) using Python.</li>
+            <li>Guided master’s and undergraduate students through <b>ROS simulations</b> with programming tasks.</li>
+            <li>Implemented <b>RTAB-Map</b> using a Kinect sensor to demonstrate mapping in ROS.</li>
+          </ul>
+        </div>
+      </section>
     </div>
   </body>
 </html>
