@@ -27,36 +27,78 @@
       <h1>My Projects</h1>
 
       <div class="project">
-        <h2><a href="https://github.com/your-username/project1">🚀 Mobile Manipulator</a></h2>
-        <p> I found an amazing specialization named Modern Robotics: Mechanics, Planning, and Control. 
-            I started my quest for robotics by enrolling in this specialization. I have learned a lot 
-            of new concepts like core mathematical terms of robot manipulator and mobile robots, forward 
-            kinematics, inverse kinematics, forward dynamics, inverse dynamics, trajectory planning, 
-            controlling( Feed Forward +PI controller), kinematics of mobile robots, grasping, Odometry, etc.
-            This is actually a theory based specialization but after each theory, there was some assignments 
-            where I had to code with my gained theoretical knowledge for the simulation in CoppeliaSim. 
-            This was the most amazing and challenging part of this specialization. At the end of this specialization, 
-            I have done an interesting capstone project where I had to write a software in python for a pick and place 
-            mobile manipulator. I had to combine all of the knowledge that I learned throughout this specialization.</p>
+        <h2><a href="https://github.com/MarzanShuvo/Mobile-Manipulator-Capstone-Project">🤖 Mobile Manipulator</a></h2>
+        <p>
+        I found an amazing specialization named <b>Modern Robotics: Mechanics, Planning, and Control</b>.
+        I started my quest for robotics by enrolling in this specialization. I learned concepts like
+        forward/inverse kinematics, dynamics, trajectory planning, control, mobile robot odometry,
+        and grasping.  
+        The highlight was the <b>capstone project</b> where I built a Python software for a pick-and-place
+        mobile manipulator simulation in <b>CoppeliaSim</b>.
+        </p>
+
         <!-- GIF demo -->
         <img src="images/coppilasim.gif" alt="Demo of Project One">
       </div>
 
       <div class="project">
-        <h2><a href="https://github.com/your-username/project2">🤖 Autonomous Docking</a></h2>
-        <p>A short description of Project Two.</p>
+        <h2><a href="https://github.com/MarzanShuvo/Automatic_docking">🤖 Autonomous Docking</a></h2>
+        <p>
+          This project focused on building an <b>autonomous docking system</b> for a mobile robot.  
+          Using an <b>Intel RealSense camera</b> together with <b>AprilTag markers</b>, the robot was able 
+          to detect its charging station and align itself correctly for docking.  
+
+          The RealSense camera provided the robot with both color and depth information, while AprilTags 
+          acted as unique visual markers to guide the robot’s approach. By combining these two, the robot 
+          could automatically recognize the dock, adjust its position, and move forward until it was 
+          properly connected.  
+
+          This project made it possible for the robot to <b>recharge itself without human help</b>, 
+          which is a key step toward long-term autonomy.
+        </p>
         <img src="images/autonomous_docking.gif" alt="Demo of Project One">
       </div>
 
       <div class="project">
-        <h2><a href="https://github.com/your-username/project3">📊 Autonomous Mobile Robot</a></h2>
-        <p>A short description of Project Three.</p>
+        <h2><a href="https://github.com/MarzanShuvo/medical_robot">🤖 Autonomous Mobile Robot</a></h2>
+        <p>
+          For this project, I built a <b>ROS1-based autonomous mobile robot</b> designed to operate with 
+          minimal human intervention. The robot used a <b>LiDAR sensor</b> for environment perception and 
+          an <b>encoder-based differential drive</b> system for motion control.  
+
+          The main purpose of this robot was to <b>monitor patients during the COVID-19 pandemic</b>, 
+          reducing direct contact and keeping healthcare workers safe. To achieve this, I developed the 
+          entire <b>navigation stack from scratch</b>, enabling the robot to map its surroundings, plan 
+          safe paths, and move around fully autonomously.  
+
+          This work demonstrated how mobile robots can play an important role in <b>healthcare support</b> 
+          during times when minimizing human contact is critical.
+        </p>
         <img src="images/autonomous_robot.gif" alt="Demo of Project One">
       </div>
 
       <div class="project">
-        <h2><a href="https://github.com/your-username/project4">📊 AI Planner & Dementia Care Robot</a></h2>
-        <p>A short description of Project Three.</p>
+        <h2><a href="https://github.com/AssistiveRoboticsUNH/smart-home-robot/tree/working_branch_from_marzan_testing">🤖 AI Planner & Dementia Care Robot</a></h2>
+        <p>
+          I worked on developing an <b>AI Planner-based autonomous caregiving system</b> to support 
+          people with dementia. The system was designed for the <b>Stretch robot</b>, which was deployed 
+          in households to provide daily assistance.  
+
+          As part of this project, I created a <b>vision-based autonomous docking system</b> so that the 
+          robot could recharge itself and operate continuously. I also implemented a <b>PDDL-based AI planner</b> 
+          combined with <b>Behavior Trees</b> to automate caregiving protocols.  
+
+          The overall system was a combination of an <b>AI-based planner</b> and <b>ROS action servers</b>, 
+          enabling features such as <b>calling, navigation, listening, speaking, and interactive reminders</b>.  
+          The planner decided what to do, while the action servers executed those tasks in real time.  
+
+          The software stack was built using <b>C++</b> for the planner and robot protocols, and an 
+          <b>Android application</b> was developed to provide communication and visual reminders for the user.  
+
+          This project demonstrated how <b>AI planning + robotic action execution</b> can be integrated into 
+          real-world caregiving, helping dementia patients maintain independence and safety at home.
+        </p>
+
         <img src="images/dementia.gif" alt="Demo of Project One">
       </div>
     </div>
